@@ -1,0 +1,334 @@
+@media screen and (max-width: 1200px) {
+   
+    about{
+        &__creative{
+            div{
+                padding-left: 0rem;
+                h2{
+                    font-size: 4rem;
+                   
+                }
+            }
+          
+    
+        }
+
+    }
+
+
+    .services{
+        margin: 6rem 0;
+        padding: 5rem 0;
+        position: relative;
+        
+        &__card{
+            font-size: 1.5rem;
+            padding:2rem 1rem;
+            margin: 1rem .5rem;
+            
+            span{
+                display: inline-block;
+                margin-bottom: .5rem;
+            }
+            h4{
+                font-size: 2rem;
+              
+                min-height: 50px;
+            }
+            i{
+                font-size: 5rem;
+                margin-top: 4rem;
+    
+                padding-top: 6rem;
+               
+            }
+           
+            p{
+               
+               padding: 1rem 1rem;
+               margin-top: 2rem;
+               
+    
+            }
+         
+           
+        }
+    }
+    .form{
+        &__textarea{
+      
+           margin:2rem auto;
+           margin-right: 6rem;
+           padding:2rem 0rem;
+           padding-left: 2rem;            
+        }
+        &__btn{
+            text-align: end;
+            a{
+                position: absolute;
+                right: 2.3%;
+                
+                padding: 1.2rem 2.8rem;
+                font-size: 1.3rem;
+              
+                
+                transition: all 1s;
+                margin-right: 4rem;
+               
+    
+                }
+            }
+    
+    }
+    .footer{
+        padding: 5rem 0rem;
+  
+        &__container{
+            flex-direction: column;
+            gap: 3rem;
+
+        }
+    }
+       
+
+}
+@media screen and (max-width: 992px) {
+   
+    .about{
+        
+        &__creative{
+          
+            div{
+                padding-left: 0rem;
+                h2{
+                    font-size: 3.2rem;
+                    line-height: 6rem;
+                   
+                }
+            }
+          
+    
+        }
+
+        &__litho{
+            p{
+                line-height: 2.5rem;
+             
+            }
+        }
+
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .main__section{
+        &__title{
+         
+            font-size: 10rem;
+            line-height: 11rem;
+        }
+    }
+    .about{
+        text-align: center;
+        &__creative{
+            div{
+                padding-left: 2rem;
+                h2{
+                    font-size: 4rem;    
+                    margin-bottom: 2.5rem;      
+                }
+            }
+          
+    
+        }
+        &__litho{
+            p{
+              
+                line-height: 3.6rem;
+               
+            }
+        }
+    }
+    .form{
+
+    margin-top: 6rem;
+    padding: 3rem 4rem;
+    &__titles{
+       
+        h6{
+            font-size: 3rem;
+            
+        }
+
+    }
+    &__textarea{
+    //    width: 89% !important;
+       margin:2rem auto;
+       padding:2rem 0rem;
+        
+    }
+
+
+
+    &__btn{
+        text-align: end;
+        background-color: red !important;
+        a{
+            position: absolute;
+            right: -4%;
+            
+            padding: 1.2rem 2.8rem;
+            font-size: 1.3rem;
+          
+            
+            transition: all 1s;
+            margin-right: 4rem;
+           
+
+            }
+        }
+
+}
+   
+   
+  }
+
+  @media screen and (max-width: 576px) {
+    // body{
+    //     background-color: rgb(0, 64, 255) !important;
+    //   }
+    
+    .testimonaials{
+       
+        &__txt{
+            font-size: 1.8rem; 
+        }
+        &__name{
+            font-size: 2rem;
+           
+        }
+        &__title{
+            font-size: 1.5rem;
+            
+        }
+    }
+    .main__section{
+        margin-bottom: 0px;
+
+        &__title{
+         
+            font-size: 5rem;
+            line-height: 7rem;
+        }
+        &__container{
+         
+            button{
+
+                margin-top: 50%;
+
+            }
+    }
+   
+    
+  
+}
+.portfolio{
+    &__selected{
+        font-size: 3rem;
+    }
+}
+.about{
+    padding-top: 0;
+    &__creative{
+        div{               
+            h2{
+                font-size: 3.5rem;
+                     
+                span{
+                    
+                    display: block;
+                    margin-bottom: 2rem ;
+                }
+            }
+        }
+      
+
+    }
+}
+
+   
+.form{
+
+    margin-top: 6rem;
+    padding: 3rem 4rem;
+    &__titles{
+       
+        h6{
+            font-size: 3rem;
+            
+        }
+
+    }
+    &__textarea{
+    //    width: 89% !important;
+       margin:2rem auto;
+       padding:2rem 0rem;
+        
+    }
+
+
+
+    &__btn{
+        text-align: end;
+        background-color: red !important;
+        a{
+            position: absolute;
+            right: -4%;
+            
+            padding: 1.2rem 2.8rem;
+            font-size: 1.3rem;
+          
+            
+            transition: all 1s;
+            margin-right: 4rem;
+           
+
+            }
+        }
+
+}
+
+.footer{
+    padding: 5rem 0rem;
+   
+    &__container{
+        width: 100%;
+     
+        flex-direction: column;
+        justify-content: space-between !important;
+            align-items: normal;
+        gap: 2rem;
+        img{
+            display: none;
+        }
+        .header__nav__list{
+            width: 100%;
+          
+            justify-content: space-around !important;
+            align-items: normal;
+        }
+        p{
+            text-align: center;
+        }
+      
+       
+    }
+   
+}
+  }

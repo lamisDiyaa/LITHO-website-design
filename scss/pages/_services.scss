@@ -1,0 +1,70 @@
+.services{
+    margin: 6rem 0;
+    padding: 5rem 0;
+    position: relative;
+    
+    &__card{
+        font-size: 1.5rem;
+        padding:4rem 3rem;
+        margin: 1rem;
+        position: relative;
+        background-color: rgba(31, 30, 30, 0.784);
+        overflow: hidden;
+        transition: all .7s;
+        span{
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        h4{
+            font-size: 3.2rem;
+            font-family: PoppinsBold;
+            min-height: 80px;
+        }
+        i{
+            font-size: 5rem;
+            margin-top: 10rem;
+            padding: 3rem 0;
+            padding-top: 9rem;
+            z-index: 2;
+            transition: all 1s;
+            margin-left: 2rem;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.90);
+            inset: 0;
+            z-index: -1;
+        }
+        p{
+            // margin-bottom: -120px;
+            position: absolute;
+            bottom: 0;
+            transition: all .8s;
+            width: 100%;
+            left: 0;
+           padding: 6rem 2rem;
+            opacity: 0;
+            background-color: rgba(31, 30, 30, 0.784);
+           
+
+        }
+        &:hover p{
+            bottom: 50px;
+            z-index: 9;
+            background-color: black;
+            opacity: 1;
+           
+
+        }
+        &:hover i{
+            transform: scale(0);
+        }
+        &:hover{
+            background-color: black;
+        }
+    }
+}
+
+
+

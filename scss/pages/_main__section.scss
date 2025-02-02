@@ -1,0 +1,68 @@
+.main__section{
+    background-image: url(../../imgs/parallax-bg42.webp);
+    height: 100vh;
+    position: relative;
+    margin-bottom: 9rem;
+    top: -80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;   
+    &__container{
+        text-align: center;
+        position: relative; 
+        button{
+            background-color:$yellow-color ;
+            @include circle(7rem);
+            font-size: 3rem;
+            position: relative;
+            margin-top: 4%;
+            border: none;
+            &::after{
+                content:"";
+                inset: 0;
+                @include circle(7rem);
+                opacity: 0;
+                padding: 1rem;
+                position: absolute;
+                z-index: -1;
+                background-color: #F4D956;
+                animation-name: bigSize;
+                animation-duration: 2.5s;
+                animation-iteration-count: infinite;               
+            }
+           
+        }     
+    }
+    &__title{
+        margin-top: 4rem;
+        font-size: 13rem;
+        line-height: 11rem;
+    }
+    &__mini{
+        @include circle(1.7rem,3rem,1rem);
+        border: 2px solid #fff;
+        display: inline-block;
+        margin-top: 14rem;
+        animation-name: to-top;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        span{
+            display: inline-block;
+           @include circle(.5rem,1rem,.7rem);
+           border: 2px solid #fff;
+           margin-top: 3px;
+        }
+    }
+
+}
+.main__section::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: $dark-gray;
+    opacity: .7;
+
+}

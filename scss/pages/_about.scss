@@ -1,0 +1,52 @@
+.about{
+    padding-top: 9rem;
+    &__creative{
+        div{
+
+            padding-left: 2rem;
+           
+            h2{
+                font-size: 4rem;
+                font-family: PoppinsBold;              
+                span{
+                    color: $yellow-color;
+                }
+            }
+        }
+      
+
+    }
+    &__litho{
+       
+      
+        h3{
+            font-family:PoppinsBold ;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        p{
+            font-size: 1.6rem;
+            line-height: 3.6rem;
+            color: $light-gray;
+        }
+    }
+    &__category{
+        margin-top: 7rem;
+        div{
+            display: flex;
+            gap: 2.5rem;
+            justify-content: center;
+            margin-top: 2rem;
+          
+            i{
+                font-size: 2.8rem;
+            }
+            p{
+                font-size: 1.5rem;
+                color: $light-gray;
+            }
+            
+        }
+        
+    }
+}

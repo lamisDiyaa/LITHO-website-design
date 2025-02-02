@@ -1,0 +1,12 @@
+.main__section{
+    background-image: url(../../imgs/slider-1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    &__title{
+        letter-spacing: 0px;
+        font-family: RobotoBold;
+        line-height: 1.9rem;
+        font-size: 4rem;
+    }
+}

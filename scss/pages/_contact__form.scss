@@ -1,0 +1,144 @@
+
+%form-all{
+    display: block;
+        width: 90%;
+        border: none;
+        border-bottom: 1px solid $light-gray;
+        padding:2rem 1rem;
+        background-color: transparent;
+      
+       margin-bottom: 2rem;
+       &::placeholder{
+        font-size: 1.6rem;
+        color: #aba8a8;
+       }
+
+}
+
+
+.contacts{
+    padding-top: 7rem;
+    overflow: hidden;
+    &__card{
+        text-align: center;
+        font-size: 1.6rem;
+        overflow: hidden;
+        padding: 2rem 0;
+        
+       
+        &:hover .contacts__details{
+            margin-bottom: 0;
+            transform: translateY(-2rem);
+            opacity: 1;
+        }
+        &:hover .contacts__icon{
+            transform: translateY(-2rem);
+            opacity: 0;
+    
+        }
+        &:hover .contacts__call{
+            transform: translateY(-2rem);
+        }
+        &:hover .contacts__email{
+            transform: translateY(-2rem);
+        }
+    }
+    &__icon{
+        color: $yellow-color;
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+        overflow: hidden;
+        transition: all .2s;
+    }
+    &__call{
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        transition: all .2s;
+    }
+    &__email{
+        transition: all .2s;
+        a{
+            display: inline-block;
+            color: $light-gray;
+           margin-bottom: 2rem;
+           transition: all .2s;
+        }
+        
+    }
+    &__email:hover a{
+        color: $yellow-color;
+    }
+    &__details{
+        width: 50%;
+        margin: auto;
+        color: $light-gray;
+        transition: all .3s;
+        overflow: hidden;
+        opacity: 0;
+    }
+   
+   
+}
+.form{
+
+    margin-top: 6rem;
+    padding: 3rem 4rem;
+    &__titles{
+        text-align: center;
+        p{
+            font-size: 1.6rem;
+            line-height: 2.8rem;
+            font-family: Poppins;
+            color: $light-gray;
+        }
+        h6{
+            font-size: 4rem;
+            color: $white-color;
+            font-family: PoppinsBold;
+            margin-bottom: 5rem;
+            padding-bottom: 4rem;
+        }
+
+    }
+    
+    &__input{
+        @extend %form-all;
+       
+    }
+    &__textarea{
+        @extend %form-all;
+        
+    }
+    &__details{
+        color: $light-gray;
+        width: 85%;
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+        margin-top: 5rem;
+    }
+    &__btn{
+        text-align: end;
+        a{
+            position: absolute;
+            right: -4%;
+            display: inline-block;
+            text-decoration:none ;
+            padding: 1.2rem 2.8rem;
+            font-size: 1.3rem;
+            background-color: $white-color;
+            color: $black-color;
+            font-family: Poppinsmedium;
+            text-transform: uppercase;
+            border: 1px solid $black-color;
+            transition: all 1s;
+            margin-right: 9rem;
+            &:hover{
+                background-color: $black-color;
+            color:  $white-color;
+            border: 1px solid $white-color;
+            }
+
+            }
+        }
+    }

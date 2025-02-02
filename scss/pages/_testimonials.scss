@@ -1,0 +1,27 @@
+.testimonaials{
+    color: $light-gray;
+    padding: 7rem 0;
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 3rem;
+    &__txt{
+        width: 50%;
+        font-size: 2.8rem;
+        padding: 4rem 0;
+        margin: auto;
+        
+        margin-bottom: 11rem;
+        line-height: 4.4rem;
+    }
+    &__name{
+        font-family: PoppinsBold;
+        color: $yellow-color;
+        font-size: 2.7rem;
+        span{
+            font-family: PoppinsLight;
+        }
+    }
+    &__title{
+        font-size: 1.5rem;
+        color: $light-gray;
+    }
+}

@@ -1,0 +1,36 @@
+html{
+    font-size: 10px;
+}
+img{
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Poppinsmedium;
+    src: url(../../fonts/Poppins-1/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: PoppinsBold;
+    src: url(../../fonts/Poppins-1/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../../fonts/Poppins-1/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsLight;
+    src: url(../../fonts/Poppins-1/Poppins-Light.ttf);
+}
