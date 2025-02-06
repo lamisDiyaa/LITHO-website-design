@@ -122,6 +122,12 @@
       }
     }
   }
+  .services {
+    .services__card {
+      width: 60%;
+      margin: 1rem auto;
+    }
+  }
   .form {
     margin-top: 6rem;
     padding: 3rem 4rem;
@@ -208,7 +214,12 @@
       }
     }
   }
-
+  .services {
+    .services__card {
+      width: 73%;
+      margin: 1rem auto;
+    }
+  }
   .form {
     margin-top: 6rem;
     padding: 3rem 4rem;

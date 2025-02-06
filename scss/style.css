@@ -634,6 +634,10 @@ img {
   .about__litho p {
     line-height: 3.6rem;
   }
+  .services .services__card {
+    width: 60%;
+    margin: 1rem auto;
+  }
   .form {
     margin-top: 6rem;
     padding: 3rem 4rem;
@@ -696,6 +700,10 @@ img {
   .about__creative div h2 span {
     display: block;
     margin-bottom: 2rem;
+  }
+  .services .services__card {
+    width: 73%;
+    margin: 1rem auto;
   }
   .form {
     margin-top: 6rem;
